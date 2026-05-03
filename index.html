@@ -1,166 +1,423 @@
-# Política de Privacidade — Palpiteiros
-
-**Última atualização:** 3 de maio de 2026
-
-Esta Política de Privacidade descreve como o aplicativo **Palpiteiros** (“App”), desenvolvido por **Paulo Roberto Vessi Monteiro** (“nós”, “nosso”), trata dados pessoais quando você utiliza o App disponível na Google Play.
-
-Ao usar o App, você declara que leu e compreendeu esta política. Se não concordar, não utilize o App.
-
-**Controlador dos dados:** Vessi Apps
-**Contato para privacidade / LGPD:** paulovessi.apps@gmail.com 
-
----
-
-## 1. Escopo
-
-Esta política aplica-se ao uso do App **Palpiteiros** no Android (pacote `com.paulorvm.palpiteiros`). Serviços de terceiros (loja Google Play, provedores de nuvem, anúncios, analytics etc.) possuem políticas próprias, indicadas na seção 6.
-
----
-
-## 2. Dados que podemos coletar e usar
-
-Dependendo de como você usa o App e das permissões concedidas, podemos tratar as seguintes categorias de dados:
-
-### 2.1 Conta e autenticação
-
-- Identificadores de conta criados ou utilizados para login (por exemplo, ID de usuário atribuído pelo nosso provedor de autenticação).
-- Dados necessários para manter sua sessão de forma segura.
-
-### 2.2 Dados de uso do produto
-
-- Informações relacionadas às funcionalidades do App (por exemplo: participação em bolões/pools, fluxos de entrada, preferências operacionais necessárias ao serviço).
-- Eventos de produto enviados para **ferramentas de analytics** quando configuradas (ver secção 6), que podem incluir identificadores pseudonimizados e metadados de eventos (ex.: tipo de ação, timestamps agregados).
-
-### 2.3 Comunicações e notificações
-
-- Se você habilitar **notificações push**, poderemos usar tokens ou identificadores técnicos geridos pela plataforma (Google / Firebase conforme configuração do projeto) para entregar mensagens. Você pode desativar notificações nas configurações do sistema Android.
-
-### 2.4 Publicidade (Google Mobile Ads / AdMob)
-
-- O App pode exibir anúncios por meio do **Google Mobile Ads**. Nesse caso, o Google pode coletar e processar dados como identificadores de publicidade, dados de desempenho de anúncios e informações do dispositivo, conforme a política do Google e suas escolhas de privacidade no Android.
-- Você pode gerenciar ou limitar a personalização de anúncios nas configurações do dispositivo e da conta Google.
-
-### 2.5 Compras na loja (assinaturas / produtos digitais)
-
-- Compras realizadas via **Google Play** são processadas pela Google. Utilizamos integração com **RevenueCat** (ou equivalente configurado no App) para reconciliar status de assinatura/compra com o serviço. Dados típicos incluem identificadores de transação, SKU e estado de entitlement, conforme necessário para liberar funcionalidades pagas.
-
-### 2.6 Estabilidade e diagnóstico (crash reporting)
-
-- Se o **Sentry** (ou ferramenta similar) estiver configurado, podemos receber relatórios de erro que podem incluir dados técnicos do dispositivo, trilhas de falha e, eventualmente, identificadores ou contexto mínimo para correção de bugs.
-
-### 2.7 Backend e sincronização de dados
-
-- Utilizamos infraestrutura em nuvem (**Supabase** ou serviços equivalentes configurados no projeto) para armazenar e processar dados necessários ao funcionamento do App (por exemplo, dados de conta e de uso associados ao serviço).
-
-### 2.8 Atualizações do aplicativo
-
-- O App pode utilizar **Expo Updates** (ou canal de atualização OTA configurado) para entregar atualizações. Isso pode envolver comunicação com servidores da Expo / infraestrutura associada para verificar e baixar atualizações compatíveis com a versão instalada.
-
----
-
-## 3. Finalidades do tratamento
-
-Tratamos dados pessoais para:
-
-- Fornecer, manter e melhorar o App e suas funcionalidades.
-- Autenticar usuários e proteger contas.
-- Operar bolões/pools e recursos sociais previstos no produto.
-- Exibir publicidade quando aplicável e medir desempenho de monetização de forma agregada ou pseudonimizada.
-- Processar assinaturas e direitos de uso de funcionalidades pagas.
-- Enviar notificações quando autorizado.
-- Medir uso do produto (analytics) e diagnosticar falhas (crash reporting).
-- Cumprir obrigações legais e responder a solicitações legítimas.
-
----
-
-## 4. Base legal (LGPD)
-
-Dependendo do caso, nos fundamentamos em:
-
-- **Execução de contrato** ou procedimentos preliminares: prestação do serviço do App.
-- **Legítimo interesse**: segurança, prevenção a fraudes, melhoria do produto e medições agregadas, quando compatível com seus direitos.
-- **Consentimento**: quando exigido para funcionalidades opcionais (por exemplo, certas permissões ou comunicações de marketing, se existirem).
-- **Cumprimento de obrigação legal ou regulatória**.
-
----
-
-## 5. Compartilhamento
-
-Podemos compartilhar dados com:
-
-- **Google LLC** — distribuição na Play Store, serviços Google Play Billing, **Google Mobile Ads**, e componentes do ecossistema Android conforme sua configuração.
-- **Provedor de backend** (ex.: Supabase).
-- **Provedores de analytics** (ex.: PostHog), quando habilitados.
-- **Provedor de crash reporting** (ex.: Sentry), quando habilitado.
-- **RevenueCat** (ou provedor equivalente de entitlement), para gestão de compras/assinaturas.
-- **Expo**, na medida necessária para build e atualizações OTA, conforme configuração do projeto.
-
-Exigimos que terceiros contratuais tratem dados de acordo com a lei aplicável e apenas para as finalidades descritas.
-
----
-
-## 6. Links úteis — políticas de terceiros
-
-- Google Play / Android / Privacidade Google: [https://policies.google.com/privacy](https://policies.google.com/privacy)  
-- Políticas para desenvolvedores Google Play: consulte o [Google Play Developer Policy Center](https://play.google.com/about/developer-content-policy/)  
-- Supabase: [https://supabase.com/privacy](https://supabase.com/privacy)  
-- PostHog: [https://posthog.com/privacy](https://posthog.com/privacy)  
-- Sentry: [https://sentry.io/privacy/](https://sentry.io/privacy/)  
-- RevenueCat: [https://www.revenuecat.com/privacy/](https://www.revenuecat.com/privacy/)  
-- Google Mobile Ads (AdMob): documentação e recursos do Google Ads / privacidade conforme [políticas Google](https://policies.google.com/privacy)  
-
-*(Confira sempre os links oficiais mais recentes ao publicar.)*
-
----
-
-## 7. Retenção
-
-Conservamos dados pelo tempo necessário para as finalidades descritas, resolução de disputas, auditoria de segurança e obrigações legais. Critérios específicos podem variar por tipo de dado e por serviço de backend.
-
----
-
-## 8. Segurança
-
-Adotamos medidas técnicas e organizacionais razoáveis para proteger dados contra acesso não autorizado, perda ou alteração. Nenhum método de transmissão ou armazenamento é 100% seguro.
-
----
-
-## 9. Transferência internacional
-
-Alguns provedores podem processar dados em países fora do Brasil. Quando aplicável, utilizamos instrumentos compatíveis com a LGPD (incluindo cláusulas contratuais e avaliações de adequação quando pertinentes).
-
----
-
-## 10. Seus direitos (LGPD)
-
-Você pode solicitar, conforme a lei:
-
-- Confirmação de tratamento e acesso aos dados.
-- Correção de dados incompletos ou desatualizados.
-- Anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em desconformidade.
-- Portabilidade, quando aplicável.
-- Informação sobre compartilhamentos e sobre a possibilidade de não consentir.
-- Revogação do consentimento, quando o tratamento se basear nele.
-
-**Como exercer:** envie solicitação para **paulovessi.apps@gmail.com**, com identificação razoável da conta (ex.: e-mail da conta Google Play associado ao uso ou ID de usuário exibido no App, se disponível). Responderemos no prazo legal.
-
-Você também pode apresentar reclamação à **Autoridade Nacional de Proteção de Dados (ANPD)**.
-
----
-
-## 11. Crianças e adolescentes
-
-O App não é direcionado a menores de **16 anos** (ajuste a idade mínima da sua política comercial e legal, se diferente). Se você acredita que coletamos dados de menor sem base legal adequada, contacte-nos em **paulovessi.apps@gmail.com** para que possamos tomar as medidas cabíveis.
-
----
-
-## 12. Alterações
-
-Podemos atualizar esta política periodicamente. A data no topo indica a revisão mais recente. Alterações relevantes podem ser comunicadas por meio do App, pela Play Store ou pelo e-mail cadastrado, quando aplicável.
-
----
-
-## 13. Lei aplicável
-
-Esta política é regida pelas leis da **República Federativa do Brasil**, em especial a Lei nº 13.709/2018 (LGPD), sem prejuízo de normas imperativas de outros ordenamentos quando aplicáveis.
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Política de Privacidade — Palpiteiros</title>
+    <meta
+      name="description"
+      content="Política de Privacidade do aplicativo Palpiteiros para Android (Google Play)."
+    />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #fafafa;
+        --text: #1a1a1a;
+        --muted: #555;
+        --border: #ddd;
+        --link: #0969da;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #121212;
+          --text: #eee;
+          --muted: #aaa;
+          --border: #333;
+          --link: #58a6ff;
+        }
+      }
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        max-width: 42rem;
+        padding: 1.25rem 1rem 3rem;
+        background: var(--bg);
+        color: var(--text);
+      }
+      h1 {
+        font-size: 1.65rem;
+        line-height: 1.25;
+        margin-bottom: 0.5rem;
+      }
+      h2 {
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.75rem;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 0.25rem;
+      }
+      h3 {
+        font-size: 1.05rem;
+        margin-top: 1.25rem;
+        margin-bottom: 0.5rem;
+      }
+      p,
+      li {
+        margin: 0.5rem 0;
+      }
+      ul {
+        padding-left: 1.25rem;
+      }
+      a {
+        color: var(--link);
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 0.95rem;
+        margin-bottom: 1.25rem;
+      }
+      .intro-box {
+        margin: 1rem 0 1.5rem;
+        padding: 0.75rem 1rem;
+        border-left: 4px solid var(--border);
+        background: color-mix(in srgb, var(--border) 12%, transparent);
+      }
+      hr {
+        border: none;
+        border-top: 1px solid var(--border);
+        margin: 1.5rem 0;
+      }
+      .fine-print {
+        font-size: 0.9rem;
+        color: var(--muted);
+        margin-top: 2rem;
+      }
+      code {
+        font-size: 0.92em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Política de Privacidade — Palpiteiros</h1>
+      <p class="meta"><strong>Última atualização:</strong> 3 de maio de 2026</p>
+    </header>
+
+    <p>
+      Esta Política de Privacidade descreve como o aplicativo <strong>Palpiteiros</strong>
+      (“App”), desenvolvido por <strong>Paulo Roberto Vessi Monteiro</strong> (“nós”, “nosso”),
+      trata dados pessoais quando você utiliza o App disponível na Google Play.
+    </p>
+    <p>
+      Ao usar o App, você declara que leu e compreendeu esta política. Se não concordar, não
+      utilize o App.
+    </p>
+
+    <div class="intro-box">
+      <p><strong>Controlador dos dados:</strong> Vessi Apps</p>
+      <p><strong>Contato para privacidade / LGPD:</strong> paulovessi.apps@gmail.com</p>
+    </div>
+
+    <hr />
+
+    <section aria-labelledby="sec-1">
+      <h2 id="sec-1">1. Escopo</h2>
+      <p>
+        Esta política aplica-se ao uso do App <strong>Palpiteiros</strong> no Android (pacote
+        <code>com.paulorvm.palpiteiros</code>). Serviços de terceiros (loja Google Play,
+        provedores de nuvem, anúncios, analytics etc.) possuem políticas próprias, indicadas na
+        seção 6.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-2">
+      <h2 id="sec-2">2. Dados que podemos coletar e usar</h2>
+      <p>
+        Dependendo de como você usa o App e das permissões concedidas, podemos tratar as
+        seguintes categorias de dados:
+      </p>
+
+      <h3 id="sec-2-1">2.1 Conta e autenticação</h3>
+      <ul>
+        <li>
+          Identificadores de conta criados ou utilizados para login (por exemplo, ID de usuário
+          atribuído pelo nosso provedor de autenticação).
+        </li>
+        <li>Dados necessários para manter sua sessão de forma segura.</li>
+      </ul>
+
+      <h3 id="sec-2-2">2.2 Dados de uso do produto</h3>
+      <ul>
+        <li>
+          Informações relacionadas às funcionalidades do App (por exemplo: participação em
+          bolões/pools, fluxos de entrada, preferências operacionais necessárias ao serviço).
+        </li>
+        <li>
+          Eventos de produto enviados para <strong>ferramentas de analytics</strong> quando
+          configuradas (ver secção 6), que podem incluir identificadores pseudonimizados e
+          metadados de eventos (ex.: tipo de ação, timestamps agregados).
+        </li>
+      </ul>
+
+      <h3 id="sec-2-3">2.3 Comunicações e notificações</h3>
+      <ul>
+        <li>
+          Se você habilitar <strong>notificações push</strong>, poderemos usar tokens ou
+          identificadores técnicos geridos pela plataforma (Google / Firebase conforme
+          configuração do projeto) para entregar mensagens. Você pode desativar notificações nas
+          configurações do sistema Android.
+        </li>
+      </ul>
+
+      <h3 id="sec-2-4">2.4 Publicidade (Google Mobile Ads / AdMob)</h3>
+      <ul>
+        <li>
+          O App pode exibir anúncios por meio do <strong>Google Mobile Ads</strong>. Nesse caso,
+          o Google pode coletar e processar dados como identificadores de publicidade, dados de
+          desempenho de anúncios e informações do dispositivo, conforme a política do Google e
+          suas escolhas de privacidade no Android.
+        </li>
+        <li>
+          Você pode gerenciar ou limitar a personalização de anúncios nas configurações do
+          dispositivo e da conta Google.
+        </li>
+      </ul>
+
+      <h3 id="sec-2-5">2.5 Compras na loja (assinaturas / produtos digitais)</h3>
+      <ul>
+        <li>
+          Compras realizadas via <strong>Google Play</strong> são processadas pela Google.
+          Utilizamos integração com <strong>RevenueCat</strong> (ou equivalente configurado no
+          App) para reconciliar status de assinatura/compra com o serviço. Dados típicos incluem
+          identificadores de transação, SKU e estado de entitlement, conforme necessário para
+          liberar funcionalidades pagas.
+        </li>
+      </ul>
+
+      <h3 id="sec-2-6">2.6 Estabilidade e diagnóstico (crash reporting)</h3>
+      <ul>
+        <li>
+          Se o <strong>Sentry</strong> (ou ferramenta similar) estiver configurado, podemos
+          receber relatórios de erro que podem incluir dados técnicos do dispositivo, trilhas de
+          falha e, eventualmente, identificadores ou contexto mínimo para correção de bugs.
+        </li>
+      </ul>
+
+      <h3 id="sec-2-7">2.7 Backend e sincronização de dados</h3>
+      <ul>
+        <li>
+          Utilizamos infraestrutura em nuvem (<strong>Supabase</strong> ou serviços equivalentes
+          configurados no projeto) para armazenar e processar dados necessários ao funcionamento
+          do App (por exemplo, dados de conta e de uso associados ao serviço).
+        </li>
+      </ul>
+
+      <h3 id="sec-2-8">2.8 Atualizações do aplicativo</h3>
+      <ul>
+        <li>
+          O App pode utilizar <strong>Expo Updates</strong> (ou canal de atualização OTA
+          configurado) para entregar atualizações. Isso pode envolver comunicação com servidores
+          da Expo / infraestrutura associada para verificar e baixar atualizações compatíveis com
+          a versão instalada.
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="sec-3">
+      <h2 id="sec-3">3. Finalidades do tratamento</h2>
+      <p>Tratamos dados pessoais para:</p>
+      <ul>
+        <li>Fornecer, manter e melhorar o App e suas funcionalidades.</li>
+        <li>Autenticar usuários e proteger contas.</li>
+        <li>Operar bolões/pools e recursos sociais previstos no produto.</li>
+        <li>
+          Exibir publicidade quando aplicável e medir desempenho de monetização de forma agregada
+          ou pseudonimizada.
+        </li>
+        <li>Processar assinaturas e direitos de uso de funcionalidades pagas.</li>
+        <li>Enviar notificações quando autorizado.</li>
+        <li>Medir uso do produto (analytics) e diagnosticar falhas (crash reporting).</li>
+        <li>Cumprir obrigações legais e responder a solicitações legítimas.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="sec-4">
+      <h2 id="sec-4">4. Base legal (LGPD)</h2>
+      <p>Dependendo do caso, nos fundamentamos em:</p>
+      <ul>
+        <li>
+          <strong>Execução de contrato</strong> ou procedimentos preliminares: prestação do
+          serviço do App.
+        </li>
+        <li>
+          <strong>Legítimo interesse</strong>: segurança, prevenção a fraudes, melhoria do produto
+          e medições agregadas, quando compatível com seus direitos.
+        </li>
+        <li>
+          <strong>Consentimento</strong>: quando exigido para funcionalidades opcionais (por
+          exemplo, certas permissões ou comunicações de marketing, se existirem).
+        </li>
+        <li><strong>Cumprimento de obrigação legal ou regulatória</strong>.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="sec-5">
+      <h2 id="sec-5">5. Compartilhamento</h2>
+      <p>Podemos compartilhar dados com:</p>
+      <ul>
+        <li>
+          <strong>Google LLC</strong> — distribuição na Play Store, serviços Google Play Billing,
+          <strong>Google Mobile Ads</strong>, e componentes do ecossistema Android conforme sua
+          configuração.
+        </li>
+        <li><strong>Provedor de backend</strong> (ex.: Supabase).</li>
+        <li><strong>Provedores de analytics</strong> (ex.: PostHog), quando habilitados.</li>
+        <li><strong>Provedor de crash reporting</strong> (ex.: Sentry), quando habilitado.</li>
+        <li>
+          <strong>RevenueCat</strong> (ou provedor equivalente de entitlement), para gestão de
+          compras/assinaturas.
+        </li>
+        <li>
+          <strong>Expo</strong>, na medida necessária para build e atualizações OTA, conforme
+          configuração do projeto.
+        </li>
+      </ul>
+      <p>
+        Exigimos que terceiros contratuais tratem dados de acordo com a lei aplicável e apenas
+        para as finalidades descritas.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-6">
+      <h2 id="sec-6">6. Links úteis — políticas de terceiros</h2>
+      <ul>
+        <li>
+          Google Play / Android / Privacidade Google:
+          <a href="https://policies.google.com/privacy" rel="noopener noreferrer"
+            >https://policies.google.com/privacy</a
+          >
+        </li>
+        <li>
+          Políticas para desenvolvedores Google Play: consulte o
+          <a
+            href="https://play.google.com/about/developer-content-policy/"
+            rel="noopener noreferrer"
+            >Google Play Developer Policy Center</a
+          >
+        </li>
+        <li>
+          Supabase:
+          <a href="https://supabase.com/privacy" rel="noopener noreferrer"
+            >https://supabase.com/privacy</a
+          >
+        </li>
+        <li>
+          PostHog:
+          <a href="https://posthog.com/privacy" rel="noopener noreferrer"
+            >https://posthog.com/privacy</a
+          >
+        </li>
+        <li>
+          Sentry:
+          <a href="https://sentry.io/privacy/" rel="noopener noreferrer"
+            >https://sentry.io/privacy/</a
+          >
+        </li>
+        <li>
+          RevenueCat:
+          <a href="https://www.revenuecat.com/privacy/" rel="noopener noreferrer"
+            >https://www.revenuecat.com/privacy/</a
+          >
+        </li>
+        <li>
+          Google Mobile Ads (AdMob): documentação e recursos do Google Ads / privacidade conforme
+          <a href="https://policies.google.com/privacy" rel="noopener noreferrer"
+            >políticas Google</a
+          >
+        </li>
+      </ul>
+      <p class="fine-print">Confira sempre os links oficiais mais recentes ao publicar.</p>
+    </section>
+
+    <section aria-labelledby="sec-7">
+      <h2 id="sec-7">7. Retenção</h2>
+      <p>
+        Conservamos dados pelo tempo necessário para as finalidades descritas, resolução de
+        disputas, auditoria de segurança e obrigações legais. Critérios específicos podem variar por
+        tipo de dado e por serviço de backend.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-8">
+      <h2 id="sec-8">8. Segurança</h2>
+      <p>
+        Adotamos medidas técnicas e organizacionais razoáveis para proteger dados contra acesso não
+        autorizado, perda ou alteração. Nenhum método de transmissão ou armazenamento é 100%
+        seguro.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-9">
+      <h2 id="sec-9">9. Transferência internacional</h2>
+      <p>
+        Alguns provedores podem processar dados em países fora do Brasil. Quando aplicável,
+        utilizamos instrumentos compatíveis com a LGPD (incluindo cláusulas contratuais e
+        avaliações de adequação quando pertinentes).
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-10">
+      <h2 id="sec-10">10. Seus direitos (LGPD)</h2>
+      <p>Você pode solicitar, conforme a lei:</p>
+      <ul>
+        <li>Confirmação de tratamento e acesso aos dados.</li>
+        <li>Correção de dados incompletos ou desatualizados.</li>
+        <li>
+          Anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em
+          desconformidade.
+        </li>
+        <li>Portabilidade, quando aplicável.</li>
+        <li>Informação sobre compartilhamentos e sobre a possibilidade de não consentir.</li>
+        <li>Revogação do consentimento, quando o tratamento se basear nele.</li>
+      </ul>
+      <p>
+        <strong>Como exercer:</strong> envie solicitação para
+        <a href="mailto:paulovessi.apps@gmail.com">paulovessi.apps@gmail.com</a>, com identificação
+        razoável da conta (ex.: e-mail da conta Google Play associado ao uso ou ID de usuário
+        exibido no App, se disponível). Responderemos no prazo legal.
+      </p>
+      <p>
+        Você também pode apresentar reclamação à
+        <strong>Autoridade Nacional de Proteção de Dados (ANPD)</strong>.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-11">
+      <h2 id="sec-11">11. Crianças e adolescentes</h2>
+      <p>
+        O App não é direcionado a menores de <strong>16 anos</strong> (ajuste a idade mínima da sua
+        política comercial e legal, se diferente). Se você acredita que coletamos dados de menor sem
+        base legal adequada, contacte-nos em
+        <a href="mailto:paulovessi.apps@gmail.com">paulovessi.apps@gmail.com</a> para que possamos
+        tomar as medidas cabíveis.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-12">
+      <h2 id="sec-12">12. Alterações</h2>
+      <p>
+        Podemos atualizar esta política periodicamente. A data no topo indica a revisão mais
+        recente. Alterações relevantes podem ser comunicadas por meio do App, pela Play Store ou
+        pelo e-mail cadastrado, quando aplicável.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-13">
+      <h2 id="sec-13">13. Lei aplicável</h2>
+      <p>
+        Esta política é regida pelas leis da <strong>República Federativa do Brasil</strong>, em
+        especial a Lei nº 13.709/2018 (LGPD), sem prejuízo de normas imperativas de outros
+        ordenamentos quando aplicáveis.
+      </p>
+    </section>
+
+    <footer class="fine-print">
+      <p>
+        Publique este arquivo em uma URL HTTPS pública e informe essa URL no Google Play Console →
+        Política de privacidade. Mantenha o formulário de segurança dos dados do Play alinhado ao
+        texto desta política.
+      </p>
+    </footer>
+  </body>
+</html>
