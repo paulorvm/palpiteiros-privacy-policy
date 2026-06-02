@@ -6,8 +6,10 @@
     <title>Política de Privacidade — Palpiteiros</title>
     <meta
       name="description"
-      content="Política de Privacidade do aplicativo Palpiteiros para Android (Google Play)."
+      content="Política de Privacidade do aplicativo Palpiteiros para Android (Google Play) e iOS (App Store)."
     />
+    <link rel="alternate" hreflang="pt-BR" href="index.html" />
+    <link rel="alternate" hreflang="es" href="es.html" />
     <style>
       :root {
         color-scheme: light dark;
@@ -34,6 +36,21 @@
         padding: 1.25rem 1rem 3rem;
         background: var(--bg);
         color: var(--text);
+      }
+      .lang-nav {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 1.25rem;
+        font-size: 0.95rem;
+      }
+      .lang-nav a {
+        color: var(--link);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .lang-nav a[aria-current="page"] {
+        color: var(--text);
+        text-decoration: underline;
       }
       h1 {
         font-size: 1.65rem;
@@ -89,6 +106,11 @@
     </style>
   </head>
   <body>
+    <nav class="lang-nav" aria-label="Idioma">
+      <a href="index.html" aria-current="page">Português</a>
+      <a href="es.html" lang="es">Español</a>
+    </nav>
+
     <header>
       <h1>Política de Privacidade — Palpiteiros</h1>
       <p class="meta"><strong>Última atualização:</strong> 3 de maio de 2026</p>
@@ -96,8 +118,8 @@
 
     <p>
       Esta Política de Privacidade descreve como o aplicativo <strong>Palpiteiros</strong>
-      (“App”), desenvolvido por <strong>Vessi Apps</strong> (“nós”, “nosso”),
-      trata dados pessoais quando você utiliza o App disponível na Google Play.
+      (“App”), desenvolvido por <strong>Vessi Apps</strong> (“nós”, “nosso”), trata dados pessoais
+      quando você utiliza o App disponível na Google Play e na App Store.
     </p>
     <p>
       Ao usar o App, você declara que leu e compreendeu esta política. Se não concordar, não
@@ -115,9 +137,9 @@
       <h2 id="sec-1">1. Escopo</h2>
       <p>
         Esta política aplica-se ao uso do App <strong>Palpiteiros</strong> no Android (pacote
-        <code>com.paulorvm.palpiteiros</code>). Serviços de terceiros (loja Google Play,
-        provedores de nuvem, anúncios, analytics etc.) possuem políticas próprias, indicadas na
-        seção 6.
+        <code>com.paulorvm.palpiteiros</code>) e no iOS. Serviços de terceiros (lojas de
+        aplicativos, provedores de nuvem, anúncios, analytics etc.) possuem políticas próprias,
+        indicadas na seção 6.
       </p>
     </section>
 
@@ -145,7 +167,7 @@
         </li>
         <li>
           Eventos de produto enviados para <strong>ferramentas de analytics</strong> quando
-          configuradas (ver secção 6), que podem incluir identificadores pseudonimizados e
+          configuradas (ver seção 6), que podem incluir identificadores pseudonimizados e
           metadados de eventos (ex.: tipo de ação, timestamps agregados).
         </li>
       </ul>
@@ -154,9 +176,9 @@
       <ul>
         <li>
           Se você habilitar <strong>notificações push</strong>, poderemos usar tokens ou
-          identificadores técnicos geridos pela plataforma (Google / Firebase conforme
+          identificadores técnicos geridos pela plataforma (Google / Firebase ou Apple conforme
           configuração do projeto) para entregar mensagens. Você pode desativar notificações nas
-          configurações do sistema Android.
+          configurações do sistema do seu dispositivo.
         </li>
       </ul>
 
@@ -166,7 +188,7 @@
           O App pode exibir anúncios por meio do <strong>Google Mobile Ads</strong>. Nesse caso,
           o Google pode coletar e processar dados como identificadores de publicidade, dados de
           desempenho de anúncios e informações do dispositivo, conforme a política do Google e
-          suas escolhas de privacidade no Android.
+          suas escolhas de privacidade no dispositivo.
         </li>
         <li>
           Você pode gerenciar ou limitar a personalização de anúncios nas configurações do
@@ -177,11 +199,11 @@
       <h3 id="sec-2-5">2.5 Compras na loja (assinaturas / produtos digitais)</h3>
       <ul>
         <li>
-          Compras realizadas via <strong>Google Play</strong> são processadas pela Google.
-          Utilizamos integração com <strong>RevenueCat</strong> (ou equivalente configurado no
-          App) para reconciliar status de assinatura/compra com o serviço. Dados típicos incluem
-          identificadores de transação, SKU e estado de entitlement, conforme necessário para
-          liberar funcionalidades pagas.
+          Compras realizadas via <strong>Google Play</strong> ou <strong>App Store</strong> são
+          processadas pela Google ou pela Apple. Utilizamos integração com
+          <strong>RevenueCat</strong> (ou equivalente configurado no App) para reconciliar status de
+          assinatura/compra com o serviço. Dados típicos incluem identificadores de transação, SKU e
+          estado de entitlement, conforme necessário para liberar funcionalidades pagas.
         </li>
       </ul>
 
@@ -261,6 +283,10 @@
           <strong>Google Mobile Ads</strong>, e componentes do ecossistema Android conforme sua
           configuração.
         </li>
+        <li>
+          <strong>Apple Inc.</strong> — distribuição na App Store, compras no app e componentes do
+          ecossistema iOS conforme sua configuração.
+        </li>
         <li><strong>Provedor de backend</strong> (ex.: Supabase).</li>
         <li><strong>Provedores de analytics</strong> (ex.: PostHog), quando habilitados.</li>
         <li><strong>Provedor de crash reporting</strong> (ex.: Sentry), quando habilitado.</li>
@@ -294,6 +320,12 @@
             href="https://play.google.com/about/developer-content-policy/"
             rel="noopener noreferrer"
             >Google Play Developer Policy Center</a
+          >
+        </li>
+        <li>
+          Privacidade Apple:
+          <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer"
+            >https://www.apple.com/legal/privacy/</a
           >
         </li>
         <li>
@@ -374,8 +406,8 @@
       <p>
         <strong>Como exercer:</strong> envie solicitação para
         <a href="mailto:paulovessi.apps@gmail.com">paulovessi.apps@gmail.com</a>, com identificação
-        razoável da conta (ex.: e-mail da conta Google Play associado ao uso ou ID de usuário
-        exibido no App, se disponível). Responderemos no prazo legal.
+        razoável da conta (ex.: e-mail da conta Google Play ou App Store associado ao uso ou ID de
+        usuário exibido no App, se disponível). Responderemos no prazo legal.
       </p>
       <p>
         Você também pode apresentar reclamação à
@@ -386,9 +418,8 @@
     <section aria-labelledby="sec-11">
       <h2 id="sec-11">11. Crianças e adolescentes</h2>
       <p>
-        O App não é direcionado a menores de <strong>16 anos</strong> (ajuste a idade mínima da sua
-        política comercial e legal, se diferente). Se você acredita que coletamos dados de menor sem
-        base legal adequada, contacte-nos em
+        O App não é direcionado a menores de <strong>16 anos</strong>. Se você acredita que
+        coletamos dados de menor sem base legal adequada, contacte-nos em
         <a href="mailto:paulovessi.apps@gmail.com">paulovessi.apps@gmail.com</a> para que possamos
         tomar as medidas cabíveis.
       </p>
@@ -398,8 +429,8 @@
       <h2 id="sec-12">12. Alterações</h2>
       <p>
         Podemos atualizar esta política periodicamente. A data no topo indica a revisão mais
-        recente. Alterações relevantes podem ser comunicadas por meio do App, pela Play Store ou
-        pelo e-mail cadastrado, quando aplicável.
+        recente. Alterações relevantes podem ser comunicadas por meio do App, pelas lojas ou pelo
+        e-mail cadastrado, quando aplicável.
       </p>
     </section>
 
@@ -414,9 +445,9 @@
 
     <footer class="fine-print">
       <p>
-        Publique este arquivo em uma URL HTTPS pública e informe essa URL no Google Play Console →
-        Política de privacidade. Mantenha o formulário de segurança dos dados do Play alinhado ao
-        texto desta política.
+        Publique este arquivo em uma URL HTTPS pública e informe essa URL no Google Play Console e
+        na App Store Connect → Política de privacidade. Mantenha o formulário de segurança dos dados
+        alinhado ao texto desta política.
       </p>
     </footer>
   </body>
